@@ -1,19 +1,15 @@
 import * as React from 'react';
 import { Link } from 'gatsby';
-import { Seo } from '../components/seo.js';
+import Layout from '../components/layout.js';
 
 const AboutPage = () => {
   return (
-    <>
-      <Seo
-        title="About this Site"
-        description="More information about this site"
-      />
+    <Layout>
       <main>
         <h1>About this website</h1>
         <Link to="/">back to home</Link>
       </main>
-    </>
+    </Layout>
   );
 };
 
