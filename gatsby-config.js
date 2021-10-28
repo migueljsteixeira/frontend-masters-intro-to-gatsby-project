@@ -6,4 +6,5 @@ module.exports = {
     image:
       'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/red-small-german-spitz-walking-in-the-autumn-park-royalty-free-image-1580496879.jpg',
   },
+  plugins: ['gatsby-plugin-react-helmet'],
 };
