@@ -1,10 +1,10 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: 'https://www.yourDomain.ltd',
-    title: 'Front end masters Intro to Gastby',
-    description: 'Frontend matsrs Intro to gatsby course',
+    siteUrl: 'https://www.yourdomain.tld',
+    title: 'Frontend Masters Intro to Gatsby',
+    description: 'Frontend Masters Intro to Gatsby course projects',
     image:
-      'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/red-small-german-spitz-walking-in-the-autumn-park-royalty-free-image-1580496879.jpg',
+      'https://res.cloudinary.com/jlengstorf/image/upload/v1628127675/frontend-masters/gatsby-intro/share-image.jpg',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
