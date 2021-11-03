@@ -4,6 +4,21 @@ title: Another blog post
 Desciption: This is another blog post
 ---
 
+import { graphql } from 'gatsby';
+import { GatsbyImage, getImage } from 'gatsby-plugin-image';
+
+export const query = graphql`
+  query SmashbugerQuery {
+    file(name: { eq: "smashburger" }) {
+      childImageSharp {
+        gatsbyImageData(placeholder: DOMINANT_COLOR)
+      }
+    }
+  }
+`;
+
 # Oh another blog
+
+<GatsbyImage image={getImage(props.data.file)} alt="A smashburger on a plate" />
 
 This is another blog
